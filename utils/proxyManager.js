@@ -2,9 +2,7 @@ const fs = require('fs');
 const { HttpsProxyAgent } = require('https-proxy-agent');
 const { logger } = require('../services/logger');
 
-/**
- * Manages proxy configuration and rotation for network requests
- */
+
 class ProxyManager {
   /**
    * Creates a new ProxyManager instance

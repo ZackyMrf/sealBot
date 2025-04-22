@@ -172,7 +172,6 @@ async function main() {
         console.log(chalk.white(`    ◆ Blob ID:      `) + chalk.yellow(result.blobId));
       });
     }
-    
     // Create service subscription if choice is 2 or 3
     if (choice === '2' || choice === '3') {
       // If running both tasks, get a new random image for the second task
@@ -197,7 +196,6 @@ async function main() {
     
     console.log(chalk.gray('\n  ' + '━'.repeat(50)));
     console.log(chalk.green.bold('\n  ✅ ALL TASKS COMPLETED SUCCESSFULLY!'));
-    
   } catch (error) {
     console.log(chalk.red.bold(`\n  ❌ ERROR: ${error.message}`));
   } finally {
