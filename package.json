@@ -1,0 +1,34 @@
+{
+  "name": "sui-seal-blockchain-tool",
+  "version": "2.0.0",
+  "description": "Modular tool for SUI blockchain operations including allowlist and service subscription management",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@mysten/sui.js": "^0.45.1",
+    "axios": "^1.6.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "figlet": "^1.6.0",
+    "https-proxy-agent": "^7.0.2",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.55.0",
+    "prettier": "^3.1.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "sui",
+    "blockchain",
+    "allowlist",
+    "subscription",
+    "automation"
+  ],
+  "private": true
+}
