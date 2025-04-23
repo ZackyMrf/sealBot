@@ -1,8 +1,5 @@
 const { SYMBOLS } = require('../config/constanst');
 
-/**
- * Logger utility for consistent and styled console output
- */
 const logger = {
   info: (message) => console.log(`${SYMBOLS.info} ${message}`),
   success: (message) => console.log(`${SYMBOLS.success} ${message}`),
