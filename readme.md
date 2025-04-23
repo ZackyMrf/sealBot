@@ -85,13 +85,6 @@ Add your proxies to a file named `proxies.txt`, with one proxy per line in any o
 - `host:port:username:password`
 - `username:password@host:port`
 
-### 🛠️ Environment Variables
-Create a `.env` file in the project root and add the following:
-```
-SUI_RPC_URL=https://fullnode.testnet.sui.io:443
-```
-
----
 
 ## Usage
 
