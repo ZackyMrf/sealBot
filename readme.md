@@ -67,8 +67,8 @@ npm install
 ```
 
 ### 3. Configure Your Environment
-- **Single Wallet**: Create a `private_key.txt` file with your private key.
-- **Multiple Wallets**: Add your wallet keys to `wallets.txt`, one per line.
+- **Single Wallet**: Create a `private_key.txt` file with your private key, if private key does not work, use pharse / mnemonic .
+- **Multiple Wallets**: Add your wallet keys/ pharse  to `wallets.txt`, one per line.
 - **Optional**: Create a `proxies.txt` file with proxy configurations.
 
 ---
