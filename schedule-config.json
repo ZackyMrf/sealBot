@@ -1,5 +1,5 @@
 {
-  "schedule": "4 14 * * *",
+  "schedule": "58 16 * * *",
   "maxRetries": 3,
   "retryDelay": 300000
 }
